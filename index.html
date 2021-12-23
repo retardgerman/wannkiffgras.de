@@ -23,36 +23,31 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>Ist Kiffgras legal?</title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
 
-<head>
-  <title>Ist Kiffgras legal?</title>
-  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
-  <script src="./script.js" defer></script>
-</head>
+  <body>
+    <div class="main-wrapper">
+      <div class="main">
+        <div>
+          <h1>Ist Kiffgras legal?</h1>
+        </div>
+        <div class="button-answer-box">
+          <button class="button" id="button" onclick="show()">
+            Sag es mir!
+          </button>
 
-<body>
-
-<div class="main-wrapper">
-  <div>
-    <h1>Ist Kiffgras legal?</h1>
-  </div>
-  <div class="button-answer-box">
-    <button class="button" id="button" onclick="showTheText()">
-      Sag es mir!
-    </button>
-
-    <div id="answer" class="answer hidden">
-      Nein, aber der Markt regelt das.
-
-        <br>
-      <img src="./img/lindner_kapitalist.png" class="answer-image" alt="">
+          <div id="answer" class="answer hidden">
+            <div class="text">Nein, aber der Markt regelt das.</div>
+            <img id="image" class="answer-image" alt="" />
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-    
-
-</body>
-
+  </body>
 </html>
