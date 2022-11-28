@@ -19,7 +19,7 @@ jobs:
       uses: Creepios/sftp-action@v1.0.3
       with:
         host: ${{ secrets.DEPLOY_HOSTNAME }}
-        port: 22
+        port: 
         username: ${{ secrets.DEPLOY_USERNAME }}
         password: ${{ secrets.DEPLOY_PASSWORD }}
         localPath: './'
