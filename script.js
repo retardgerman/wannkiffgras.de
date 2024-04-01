@@ -1,4 +1,4 @@
-const memes = ["lindner_kapitalist.png"];
+const memes = ["Weed_Yoda.jpeg"];
 
 const filename = memes[Math.floor(Math.random() * memes.length)];
 document.getElementById("image").src = `./img/${filename}`;
